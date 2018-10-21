@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+    android:background="#0288D1"
+android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/angry_btn"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignStart="@+id/angry_btnc"
+        android:layout_marginTop="177dp"
+        android:background="@drawable/buttob"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="8"
+        android:text="Stephen Hawk"
+        android:textColor="#61FFF4"
+        android:textSize="30sp"
+        android:layout_alignLeft="@+id/angry_btnc" />
+
+    <Button
+        android:id="@+id/angry_btnb"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/buttob"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="8"
+        android:text="Niel Armstrong"
+        android:textColor="#61FFF4"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/angry_btnc"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="144dp"
+        android:layout_marginEnd="44dp"
+        android:background="@drawable/buttob"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="8"
+        android:text="Elon Musk"
+        android:textColor="#61FFF4"
+        android:textSize="30sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="44dp" />
+
+   <!-- <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp">
+    </ListView>
+-->
+
+</RelativeLayout>
